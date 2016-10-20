@@ -5,9 +5,12 @@
  * class that you will reimplement for Part III of the assignment.
  */
 
+import java.awt.print.Printable;
+
+import acm.program.ConsoleProgram;
 import acm.util.*;
 
-public class HangmanLexicon {
+public class HangmanLexicon extends ConsoleProgram{
 
 /** Returns the number of words in the lexicon. */
 	public int getWordCount() {
@@ -30,4 +33,6 @@ public class HangmanLexicon {
 			default: throw new ErrorException("getWord: Illegal index");
 		}
 	};
+	
+
 }
