@@ -13,8 +13,9 @@ import java.awt.*;
 
 public class Hangman extends ConsoleProgram {
 
-    public void run() {
-		/* You fill this in */
+    public void run() 
+    {
+	
 	}
 
 }
